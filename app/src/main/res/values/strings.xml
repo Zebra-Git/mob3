@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Multi Activities App</string>
+    <string name="enter_text">Enter text:</string>
+    <string name="go_to_second">Go to Second Activity</string>
+    <string name="received_text">Received text:</string>
+    <string name="go_to_third">Go to Third Activity</string>
+    <string name="enter_number">Enter number:</string>
+    <string name="go_to_fourth">Go to Fourth Activity</string>
+    <string name="received_number">Received number:</string>
+    <string name="back_to_main">Back to Main</string>
+</resources>
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Мульти Активити Приложение</string>
+    <string name="enter_text">Введите текст:</string>
+    <string name="go_to_second">Перейти ко 2-й активности</string>
+    <string name="received_text">Полученный текст:</string>
+    <string name="go_to_third">Перейти к 3-й активности</string>
+    <string name="enter_number">Введите число:</string>
+    <string name="go_to_fourth">Перейти к 4-й активности</string>
+    <string name="received_number">Полученное число:</string>
+    <string name="back_to_main">Назад на главную</string>
+</resources>
