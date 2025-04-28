@@ -14,10 +14,13 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        receivedText = findViewById(R.id.treceivedTextView);
+        receivedText = findViewById(R.id.treceivedText);
 
         String text = getIntent().getStringExtra("text_key");
-        receivedText.setText(text);
+        if (text != null && !text.isEmpty()) {
+            receivedText.setText(text);
+        }
+
     }
 
     public void goToThirdActivity(View view) {
@@ -25,3 +28,4 @@ public class SecondActivity extends AppCompatActivity {
         startActivity(intent);
     }
 }
+

@@ -7,17 +7,25 @@
     android:background="@color/backgroundColor">
 
     <TextView
-
-        android:id="@+id/treceivedTextView"
+        android:id="@+id/treceivedText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/received_text"
-        android:textSize="@dimen/text_size_large" />
+        android:textSize="@dimen/text_size_large"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true" />
+
+
 
     <Button
-        android:layout_below="@id/treceivedTextView"
+        android:id="@+id/buttonGoToThird"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/go_to_third"
-        android:onClick="goToThirdActivity" />
+        android:onClick="goToThirdActivity"
+        android:layout_below="@id/treceivedText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
 </RelativeLayout>
+

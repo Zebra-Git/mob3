@@ -17,7 +17,10 @@ public class FourthActivity extends AppCompatActivity {
         receivedNumber = findViewById(R.id.textViewNumber);
 
         String number = getIntent().getStringExtra("number_key");
-        receivedNumber.setText(number);
+        if (number != null && !number.isEmpty()) {
+            receivedNumber.setText(number);
+        }
+
     }
 
     public void backToMain(View view) {

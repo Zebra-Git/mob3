@@ -19,6 +19,14 @@
             android:text="@string/received_number"
             android:textSize="@dimen/text_size_large" />
 
+        <EditText
+            android:id="@+id/editTextFourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_text"
+            android:layout_marginTop="24dp"/>
+
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,4 +34,3 @@
             android:onClick="backToMain"/>
     </LinearLayout>
 </FrameLayout>
-
